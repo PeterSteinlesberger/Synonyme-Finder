@@ -9,7 +9,7 @@ async function getSynonyms() {
 
 function renderSynsets(synsets) {
     let container = document.getElementById('container');
-    container.innerHTML = `<div>Es wurden <b>${synsets.length}</b> Synonym-Sets geladen.</div>`;
+   // container.innerHTML = `<div>Es wurden <b>${synsets.length}</b> Synonym-Sets geladen.</div>`;
 
     for (let i = 0; i < synsets.length; i++) {
         let synset = synsets[i];

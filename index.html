@@ -13,43 +13,36 @@
     <title>Synonyme Finder</title>
   </head>
   <body>
+   
     <div class="main-cont">
       <div class="input-group mb-3 input-field">
-        <input
-          id="inputField" type="text"class="form-control"placeholder="Bitte Wort für Suche eingeben"/>
+        <input id="inputField" type="text"class="form-control"placeholder="Bitte Wort für Suche eingeben"/>
     </div>
-      <button onclick="getSynonyms()" type="button" class="btn btn-primary">
-        Synonyme anzeigen
-      </button>
-      <div id="container" class="cont-synonyms"> <span class="placeholder">für Ergebnis Button "Synonyme anzeigen" drücken</span> </div>
-    </div>
-
+        <button onclick="getSynonyms()" class="btn btn-primary btn-margin" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+          Synonyme anzeigen
+        </button>
+      </p>
+      <div class="collapse" id="container">
+        <div class="card card-body">
+          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        </div>
+      </div>
+     
+      <div class="spinner-border text-primary" role="status">  spinner beim laden anzeigen
+        <span class="visually-hidden">Loading...</span>
+      </div>
 
 
   </body>
 </html>
-<!--<nav aria-label="...">    seiten ergebnis weiter...
-    <ul class="pagination pagination-lg">
-      <li class="page-item active" aria-current="page">
-        <span class="page-link">1</span>
-      </li>
-      <li class="page-item"><a class="page-link" href="#">2</a></li>
-      <li class="page-item"><a class="page-link" href="#">3</a></li>
-    </ul>
-  </nav>
 
-<div class="spinner-border text-primary" role="status">  spinner beim laden anzeigen
-  <span class="visually-hidden">Loading...</span>
-</div>
-
-
-<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
+ <!--<button type="button" class="btn btn-secondary" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on bottom">
   Tooltip on bottom
-</button>               tooltip für inputfeld
+</button>   -->            
 
 
 
     
 
 
--->
+
