@@ -29,5 +29,7 @@ body {
 }
 
 .btn-margin {
-    
+   margin-top: 50px;
+   margin-bottom: 50px; 
+   border: 2px solid rgb(255, 255, 255) !important;
 }
