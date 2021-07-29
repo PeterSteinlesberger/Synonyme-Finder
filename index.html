@@ -18,31 +18,29 @@
   </head>
   <body>
     <div class="nav-cont">
-    <h1 class="h1">SynonymeFinder</h1>
+    <h1 class="h1">Synonyme Finder</h1>
       <div>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Active</a>
+            <a class="nav-link active" aria-current="page" href="#">Synoyme hinzufügen</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Feedback</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Kontakt</a>
           </li>
         </ul>
     </div>
     </div>
+ 
 <div class="input-group mb-3 input-field">
         <input id="inputField" type="text"class="form-control"placeholder="Wort eingeben..."/>
     </div>
+ 
         <button onclick="getSynonyms()" class="btn btn-primary btn-margin" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
           Synonyme anzeigen
         </button>
-      <div class="collapse">
-        <div id="container" class="card card-body">
-          Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
-        </div>
       </div>
       <div class="accordion" id="accordionExample">
         <div class="accordion-item">
@@ -82,10 +80,28 @@
           </div>
         </div>
       </div>
-      <div class="spinner-border text-primary" role="status">  
+      <div class="spinner-border text-primary d-none" role="status">  
         <span class="visually-hidden">Loading...</span>
       </div>
-  </body>
+      <div class="nav-cont footer">
+        <p class="footer-item copyright">Copyright c2021</p>
+        <div>
+            <ul class="nav justify-content-end">
+              <li class="footer-item">
+                <a class="nav-link active" aria-current="page" href="#">Datenschutzerklärung</a>
+              </li>
+              <li class="footer-item">
+                <a class="nav-link" href="#">Impressum</a>
+              </li>
+              <li class="footer-item">
+                <a class="nav-link" href="#">AGB</a>
+              </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+    </body>
+
 </html>
            
 
