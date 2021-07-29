@@ -19,7 +19,7 @@ body {
 }
 
 .nav {
-    width: 500px;
+    width: 600px;
     display: flex;
     justify-content: space-around;
     margin-right: 50px;
@@ -29,10 +29,10 @@ body {
 
 .nav-item a {
     font-family: 'Tangerine', cursive;
-    font-size: 31px;
+    font-size: 40px;
 color:#0D6EFD;
     margin: 5px; 
-    margin-bottom: -73px;
+    margin-bottom: -65px;
 }
 
 .nav-item a:hover {
@@ -46,7 +46,7 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 19p
     font-size: 80px !important;
     font-family: 'Tangerine', cursive;
     color: #0D6EFD;
-    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 19px #FFFFFF, 0px 0px 19px #FFFFFF, 0px 0px 19px #FFFFFF, 0px 0px 19px #FFFFFF, 0px 0px 19px #FFFFFF;
+    text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 19px #FFFFFF, 0px 0px 19px #FFFFFF;
     margin-left: 100px;
     margin-bottom: -49px !important;
 }
@@ -61,12 +61,16 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 19p
 
 .input-field {
     max-width: 300px;
-    margin-top: 40px; 
+    margin-top: 60px;
+    height: 50px; 
 }
 
 .form-control {
     background-color: rgba(255,255,255, 0.60) !important;
     border: 1px solid rgb(255, 255, 255, 1) !important;
+    color:#0D6EFD;
+    font-size: 24px !important;
+    margin-top: 4px;
 }
 
 .form-control:hover {
@@ -76,21 +80,22 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 19p
 
 
 .btn {
-    font-size: 35px !important;
+    font-size: 37px !important;
     font-family: 'Tangerine', cursive !important;
-    background-color: #1a74fab2 !important;
+    background-color: #1a74fa9d !important;
+    margin-top: 0px !important;
+    margin-bottom: 40px !important;
 }
 
 .btn:hover {
     text-shadow:  #FFF 0px 0px 15px, 0px 0px 19px #FFFFFF;
-    background-color: #1a74fae5 !important;
+    background-color: #1a74fac5 !important;
     border: 2px solid rgb(255, 255, 255, 0.7) !important;
 }
 
 .cont-synonyms {
     margin-top: 100px;
     min-width: 400px;
-    max-width: 80%;
     min-height: 40px;
     border: 1px solid rgba(0,0,0, 0.18);
     border-radius: 5px;
@@ -99,7 +104,7 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 19p
 }
 
 .btn-margin {
-   margin-top: 30px;
+   margin-top: 20px;
    margin-bottom: 30px; 
    border: 2px solid rgb(255, 255, 255, 0.4) !important;
 }
@@ -120,7 +125,7 @@ text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, 0px 0px 19p
 .accordion-button {
     background-color: #1a74fa60 !important;
     color: white !important;
-    font-size: 33px !important;
+    font-size: 40px !important;
     font-family: 'Tangerine', cursive !important;
 }
 
@@ -157,7 +162,7 @@ border: 1px solid rgb(255, 255, 255, 0.8);
 
 .footer-item {
     font-family: 'Tangerine', cursive;
-    font-size: 28px;
+    font-size: 30px;
 color:#0D6EFD;
     margin: 3px; 
 }
