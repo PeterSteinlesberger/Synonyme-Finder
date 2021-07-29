@@ -8,17 +8,23 @@ async function getSynonyms() {
 }
 
 function renderSynsets(synsets) {
-    let container = document.getElementById('container');
-   // container.innerHTML = `<div>Es wurden <b>${synsets.length}</b> Synonym-Sets geladen.</div>`;
-
-    for (let i = 0; i < synsets.length; i++) {
-        let synset = synsets[i];
-        container.innerHTML += `<h2>Synonym-Set mit ID <b>${synset['id']}</b></h2>`;
+    let mainSynonyms = document.getElementById('mainSynonyms');
+    let partialWord = document.getElementById('partialWord');
+let synset = synsets[0];
+      mainSynonyms.innerHTML = `<b>Synonym-Set mit ID <b>${synset['id']}</b></b>`;
         let terms = synset['terms'];
         for (let j = 0; j < terms.length; j++) {
             let term = terms[j];
-            container.innerHTML += `<div>${term['term']}<div>`;
-        }
+            mainSynonyms.innerHTML += `<div>${term['term']}<div>`;
     }
+
+    synset = synsets[1];
+    partialWord.innerHTML = `<b>Synonym-Set mit ID <b>${synset['id']}</b></b>`;
+      for (let j = 0; j < terms.length; j++) {
+          let term = terms[j];
+          partialWord.innerHTML += `<div>${term['term']}<div>`;
+  }
+  if()
+
 }
 
